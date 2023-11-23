@@ -21,7 +21,7 @@ html, body{
 
 
 #page1{
-    height: 90vh;
+    height: 80vh;
     width: 100vw;
     position: relative;
     background-position: center center;
@@ -155,6 +155,58 @@ button{
         background-color: rgb(176, 3, 3);
         transition: all ease .3s;
 }
+
+
+.line{
+    height: 1.5vh;
+    width: 100vw;
+    background-color: gray;
+}
+
+#page2{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.leftside{
+    height: 80vh;
+    width: 50vw;
+   padding: 200px;
+}
+
+.leftside h1{
+    width: 50vw;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.leftside h2{
+    width: 42vw;
+}
+
+
+.rightside{
+    height: 100%;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.rightside img{
+    z-index: 10;
+}
+
+.rightside video{
+    position: absolute;
+    object-fit: cover;
+}
+
 
 
 
